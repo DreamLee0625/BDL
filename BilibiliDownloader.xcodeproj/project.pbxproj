@@ -11,6 +11,8 @@
 		C93D4A61227847C300F84853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93D4A60227847C300F84853 /* ViewController.swift */; };
 		C93D4A63227847C400F84853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93D4A62227847C400F84853 /* Assets.xcassets */; };
 		C93D4A66227847C400F84853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93D4A64227847C400F84853 /* Main.storyboard */; };
+		C9B73E72227B29A30091CB68 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B73E71227B29A30091CB68 /* AboutViewController.swift */; };
+		C9B73E77227B367B0091CB68 /* BilibiliDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B73E76227B367B0091CB68 /* BilibiliDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C93D4A65227847C400F84853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C93D4A67227847C400F84853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C93D4A68227847C400F84853 /* BilibiliDownloader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BilibiliDownloader.entitlements; sourceTree = "<group>"; };
+		C9B73E71227B29A30091CB68 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C9B73E76227B367B0091CB68 /* BilibiliDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilibiliDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +57,40 @@
 		C93D4A5D227847C300F84853 /* BilibiliDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				C9B73E75227B35970091CB68 /* Models */,
 				C93D4A5E227847C300F84853 /* AppDelegate.swift */,
-				C93D4A60227847C300F84853 /* ViewController.swift */,
+				C9B73E73227B35520091CB68 /* View Controllers */,
 				C93D4A62227847C400F84853 /* Assets.xcassets */,
 				C93D4A64227847C400F84853 /* Main.storyboard */,
+				C9B73E74227B35630091CB68 /* Supporting Files */,
+			);
+			path = BilibiliDownloader;
+			sourceTree = "<group>";
+		};
+		C9B73E73227B35520091CB68 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C93D4A60227847C300F84853 /* ViewController.swift */,
+				C9B73E71227B29A30091CB68 /* AboutViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9B73E74227B35630091CB68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				C93D4A67227847C400F84853 /* Info.plist */,
 				C93D4A68227847C400F84853 /* BilibiliDownloader.entitlements */,
 			);
-			path = BilibiliDownloader;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B73E75227B35970091CB68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9B73E76227B367B0091CB68 /* BilibiliDownloader.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B73E72227B29A30091CB68 /* AboutViewController.swift in Sources */,
+				C9B73E77227B367B0091CB68 /* BilibiliDownloader.swift in Sources */,
 				C93D4A61227847C300F84853 /* ViewController.swift in Sources */,
 				C93D4A5F227847C300F84853 /* AppDelegate.swift in Sources */,
 			);
